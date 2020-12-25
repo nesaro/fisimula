@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include "calc.hpp"
 #include "libfisimula.hpp"
 #include "calcdata.hpp"

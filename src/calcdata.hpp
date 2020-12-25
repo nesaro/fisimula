@@ -17,7 +17,7 @@ public:
   template <class TIPO>
   void metervalor(TIPO pepe);
   void metervalor(unidaddato);
-  unidaddato nodo::volcardato();
+  unidaddato volcardato();
 private:
   nodo *siguientenodo;
   nodo *anterior;
@@ -51,7 +51,7 @@ private:
   template < class TIPO >
   void insertardatos (TIPO);
   template < class TIPO >
-  void lista::insertardatos(TIPO,int) ;
+  void insertardatos(TIPO,int) ;
   template < class TIPO >
   void insertardatosprincipio(TIPO);
   void insertardatos (string);

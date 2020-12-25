@@ -1,3 +1,4 @@
+#include <cstring>
 #include <iostream>
 #include <string>
 #include "libfisimula.hpp"
@@ -28,7 +29,7 @@ bool cadenatoint (string expresion, int & devolver)
   for (i=0;i<(expresion.size());i++)
     {
       //typecasting rocks
-      devolver=devolver+(numeros.find(expresion.substr (i,1),0)*(int)pow10(expresion.size()-i-1)); 
+      devolver=devolver+(numeros.find(expresion.substr (i,1),0)*(int)pow(10, expresion.size()-i-1)); 
     }
   return true;
 }
